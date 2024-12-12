@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhZ2VtZ2lzaWxhQGdtYWlsLmNvbSIsImV4cCI6MTczMzk5NzQyMCwidXNlcklkIjowfQ.eMao4wbTAzklCD2aBjI2e88IyreCLcNZAor1omRUzBs
+
+{
+    "name": "Event Name3",
+    "description": "This is Description",
+    "location": "Addis Ababa",
+    "dateTime": "2006-01-02T15:04:00Z"
+}
